@@ -7,7 +7,6 @@ html {
 
 html {
     font-family: 'Cardo';
-    #font-size: calc(12px + 0.4vmax);
     font-size: calc(14px + (17.5 - 14) * (100vmax - 300px) / (2100 - 300));
     color: rgb(231, 218, 195);
     -webkit-text-size-adjust: 100%;
@@ -180,7 +179,6 @@ nav > ul {
 
 .content p {
     display: inline-block;
-    float: left;
 }
 
 .gold {
