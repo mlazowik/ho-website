@@ -18,6 +18,15 @@ body {
 
 }
 
+a {
+    color: rgb(231, 218, 195);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 header {
     background-image: url("assets/bg_top.png");
     background-position: center;
