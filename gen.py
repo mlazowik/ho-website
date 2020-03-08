@@ -20,7 +20,10 @@ def main():
     for page in PAGES:
         with open(script_dir / 'web' / f'{page}-content.html', 'r') as content:
             with open(script_dir / 'dist' / f'{page}.html', 'w') as rendered:
-                rendered.write(template.render(content=content.read()))
+                rendered.write(template.render(
+                    content=content.read(),
+                    page=page
+                ))
 
 
 if __name__ == '__main__':

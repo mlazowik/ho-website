@@ -1,0 +1,13 @@
+.content {
+    background-image:
+            url("assets/content_bg/shadow_02.png"),
+            url("assets/content_bg/6.jpg");
+}
+
+.content-wrapper {
+    max-width: 50rem;
+}
+
+.gold {
+    width: 168px;
+}

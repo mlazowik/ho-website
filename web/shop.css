@@ -1,0 +1,15 @@
+.content {
+    background-image:
+            url("assets/content_bg/shadow_02.png"),
+            url("assets/content_bg/5.jpg");
+}
+
+.content-wrapper {
+    text-align: center;
+    max-width: 50rem;
+}
+
+.content-wrapper img {
+    max-height: 20rem;
+    max-width: 100%;
+}

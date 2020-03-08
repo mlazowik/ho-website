@@ -1,0 +1,34 @@
+.content {
+    background-image:
+            url("assets/content_bg/shadow_02.png"),
+            url("assets/content_bg/1.jpg");
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    text-align: center;
+    max-width: 50rem;
+}
+
+.findus .social ul {
+    flex-direction: column;
+    text-align: right;
+}
+
+@media (max-width: 799px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+    }
+
+    .findus .social ul {
+        flex-direction: row;
+    }
+}
+
+.content-wrapper p {
+    margin-top: 0.2rem;
+    margin-bottom: 3rem;
+}
